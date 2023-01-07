@@ -1,0 +1,68 @@
+@media (min-width: 1301px) {
+  #herodownload-responsive {
+    display: none;
+  }
+}
+@media (max-width: 1710px) {
+  #hero-img,
+  #vector-about {
+    display: none;
+  }
+  #hero-div {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  #about-section,
+  #about-paragraph {
+    text-align: center;
+    margin-inline: auto;
+  }
+  #hero-triangle-vector {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  #vector-contact {
+    display: none;
+  }
+  #contact-input-container {
+    margin-inline: auto;
+  }
+  .text-right {
+    text-align: center;
+  }
+  #appledownload {
+    display: none;
+  }
+  #download-responsive {
+    text-align: center;
+    margin-inline: auto;
+  }
+  #download-comment {
+    text-align: center;
+  }
+  #sakura {
+    display: none;
+  }
+  #yin-yang {
+    display: none;
+  }
+  #circlek {
+    /* display: none; */
+    z-index: -1;
+    right: 0;
+  }
+  #romb1 {
+    display: none;
+  }
+  #pentagon1 {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar-container {
+    scale: 80%;
+  }
+}

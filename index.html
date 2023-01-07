@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- HTML -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E.D.E.N</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar-container-fixed fixed">
+    <nav class="flex flex-row justify-center">
+      <!-- Navbar container -->
+      <div class="navbar-container flex flex-row primary-mx items-center justify-center">
+        <!-- Icons -->
+        <a href="#contact-section" title="Contact"><img class="navbar-btn pointer" draggable="false" src="img/navbar-contact-icon.svg" /></a>
+        <a href="#about-section" title="About"><img class="navbar-btn pointer"  draggable="false" src="img/navbar-about-icon.svg" /></a>
+        <img id="navbar-eden-btn" width="32px" height="32px" class="navbar-btn pointer" draggable="false" src="img/eden-logo-icon.svg" />
+        <a href="#download-section" title="Download"><img class="navbar-btn pointer" draggable="false" src="img/navbar-download-icon.svg" /></a>
+        <a href="https://muchassak.github.io/Grzybica" target="_blank" title="Jestem mały grzybek UWUWWUWUWUWUWU"><img id="maly-grzybek" class="navbar-btn pointer" draggable="false" src="img/grzybica-logo-icon.png" /></a>
+      </div>
+    </nav>
+    </div>
+
+    <!-- Hero section -->
+    <div class="relative">
+      <main id="hero-section" class="primary-mx">
+        <!-- Title & sub-title -->
+        <div id="hero-div">
+          <h1>
+            <span style="color: var(--primaryOrange700)">Eden</span
+            ><span style="font-size: 64px; color: white">.exe</span>
+          </h1>
+          <h2>
+            Because
+            <span style="color: var(--primaryOrange700)">Grzybin'</span> Is
+            Cured
+          </h2>
+          <a href="#download-section">
+            <button id="hero-downloadbutton" class="pointer" >Download now</button>
+          </a>
+        </div>
+        <!-- Hero image -->
+        <div>
+          <img draggable="false" id="hero-img" class="absolute" src="img/hero-eden-img.png" />
+        </div>
+        <!-- Triangles vector -->
+      </main>
+      <img draggable="false" id="hero-triangle-vector" class="absolute" src="img/Polygon 1.png" />
+    </div>
+    
+    <!-- About section -->
+    <section id="about-section" class="primary-mx relative">
+      <!-- About title -->
+      <div>
+        <h1>About</h1>
+        <img draggable="false" id="romb1" class="absolute" src="img/romb.png">
+      </div>
+      <!-- Flex container -->
+      <div class="flex flex-row align-center justify-between">
+        <!-- About paragraph -->
+        <p id="about-paragraph">
+          <span style="color: var(--primaryOrange700)">E.D.E.N</span> was
+          created by 2 staff members -
+          <span style="color: var(--primaryOrange700)">Mucia</span> and
+          <span style="color: var(--primaryOrange700)">Tymuś(Ontach_)</span>.
+          The
+          <span style="color: var(--primaryOrange700)">E.D.E.N.</span> company
+          was created to get rid of the
+          <span style="color: var(--primaryOrange700)">"Grzybica"</span> fungus
+          that infects computers at the training ground's test facility:
+          <span style="color: var(--primaryOrange700)">"KCKU2".<br /></span>
+          <span style="color: var(--primaryOrange700)">E.D.E.N.</span> is an
+          antivirus software that gives some hope to victims
+        </p>
+        <!-- Vector image -->
+        <img id="vector-about" draggable="false" src="img/about-vector-img.svg" />
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact-section" class="primary-mx">
+      <!-- Contact title -->
+      <div id="contact-title-container" class="text-right"><h1>Contact</h1></div>
+      <!-- Flex container -->
+      <div id="contact-flex" class="flex flex-row items-center justify-between relative">
+        <!-- Vector image -->
+        <div>
+          <img id="vector-contact" draggable="true" src="img/contact-vector-img.svg" />
+          <img draggable="false" id="pentagon1" class="absolute" src="img/Pentagon.png">
+        </div>
+        <!-- Inputs -->
+        <form
+          id="contact-input-container"
+          class="flex flex-col"
+          name="contact-input"
+        >
+          <input
+            class="contact-input"
+            type="text"
+            placeholder="Username"
+            name="contact-input"
+          />
+          <input
+            class="contact-input"
+            type="email"
+            placeholder="E-mail"
+            name="contact-input"
+          />
+          <textarea
+            id="contact-input-desc"
+            class="contact-input"
+            type="text"
+            placeholder="Text"
+            name="contact-input"
+          ></textarea>
+          <!-- <input type="submit" id="submit-contact" placeholder="Send" /> -->
+          <button type="submit" id="submit-contact" name="contact-input">
+            <span>Send</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Download section -->
+    <section id="download-section" class="primary-mx">
+      <!-- Download title -->
+      <div>
+        <h1 id="download-title">Download</h1>
+      </div>
+      <!-- Flex container -->
+      <div
+        id="download-flex"
+        class="flex flex-row items-center justify-between relative">
+      
+        <!-- Download Image -->
+        <div>
+          <a href="downloads/E.D.E.N 1.0.0.exe" download="E.D.E.N 1.0.0.exe">
+            <img draggable="false"
+              id="appledownload"
+              class="pointer"
+              src="img/download-eden-img.png"
+            />
+          </a>
+        </div>
+        <!-- Download Content -->
+        <div id="download-responsive">
+          <h2 id="software1">Eden 1.0 Software</h2>
+          <p id="download-comment">
+            <span style="color: var(--primaryOrange700)">Eden 1.0</span> is a
+            software program<br />
+            <img draggable="false" id="circlek" class="absolute" src="img/Elipse.png">
+            that is designed to
+            <span style="color: var(--primaryOrange700)">remove</span><br />
+            <span style="color: var(--primaryOrange700)">damage</span> caused by
+            <span style="color: var(--primaryOrange700)">Grzybica 1.0</span
+            ><br />
+            and stop it from spreading<br />
+            further.<br /><br />
+            <span style="color: var(--primaryOrange700)">Eden 1.0</span> is
+            <span style="color: var(--primaryOrange700)">free</span> forever and
+            for<br />
+            use by
+            <span style="color: var(--primaryOrange700)">civilians</span> and
+            <span style="color: var(--primaryOrange700)">facility staff</span>.
+          </p>
+          <a href="downloads/E.D.E.N 1.0.0.exe" download="E.D.E.N 1.0.0.exe">
+            <button id="herodownload-responsive" class="pointer" >Download now</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- Table of Contents content -->
+    <footer id="footer-section" class="relative">
+      <!-- Linear gradient -->
+      <div class="absolute"></div>
+      <!-- Links / Content -->
+      <div id="footer-flex" class="flex flex-row items-center justify-center">
+        <div>
+          <h1 id="ToC" class="text-center">Table of Content</h1>
+          <div class="flex flex-row items-center justify-center">
+            <a href="#about-section"><img class="ToC-Animations" draggable="false" src="img/navbar-about-icon.svg" /></a>
+            <a href="#about-section" class="footer-link pointer text-center">About Us</a>
+          </div>
+          <div class="flex flex-row items-center justify-center">
+            <a href="#contact-section"> <img class="ToC-Animations" draggable="false" src="img/navbar-contact-icon.svg" /> </a>
+            <a href="#contact-section" class="footer-link pointer text-center">Contact</h2></a>
+          </div>
+          <div class="flex flex-row items-center justify-center">
+            <a href="#download-section"><img class="ToC-Animations" draggable="false" src="img/navbar-download-icon.svg" /></a>
+            <a href="#download-section" class="footer-link pointer text-center">Download</h2></a>
+          </div>
+        </div>
+      </div>
+      <!-- Images -->
+      <img id="sakura" src="img/sakura-icon.svg" class="footer-img-1 absolute" draggable="false" />
+      <img id="yin-yang" src="img/yin-yang-icon.svg" class="footer-img-2 absolute" draggable="false" />
+    </footer>
+
+    <!-- JS -->
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+:root {
+  --primaryWhite800: rgb(242, 242, 242);
+  --primaryBlack300: rgb(38, 3, 6);
+  --primaryRed400: rgb(56, 5, 18);
+  --primaryRed500: rgb(92, 30, 37);
+  --primaryOrange500: rgb(186, 76, 59);
+  --primaryOrange700: rgb(237, 88, 49);
+
+  --primaryMx: 6rem;
+}
+
+/* Footer links */
+.footer-link {
+  transition: all 0.4s ease-in-out;
+}
+
+.footer-link:hover {
+  color: var(--primaryOrange700);
+}
+
+/* Download apple button */
+#appledownload {
+  transition: all 0.5s ease-in-out;
+}
+
+#appledownload:hover {
+  scale: 105.69%;
+  filter: drop-shadow(0 0 0.6rem var(--primaryOrange700));
+}
+
+/* Navbar links */
+.navbar-btn {
+  transition: all 0.25s ease-in-out;
+}
+
+.navbar-btn:hover {
+  scale: 105%;
+  filter: drop-shadow(0 0 0.1rem var(--primaryOrange700));
+}
+
+/* Send Animation */
+#submit-contact {
+  transition: all 0.25s ease-in-out;
+}
+
+#submit-contact:hover {
+  scale: 90%;
+  background-color: orangered;
+  color: var(--primaryWhite800);
+  border-color: var(--primaryWhite800);
+  border-radius: 25px;
+}
+
+/* Navbar eden apple button pulsing infinitely */
+#navbar-eden-btn {
+  animation: pulse 7s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  10% {
+    scale: 110%;
+    filter: brightness(120%);
+  }
+
+  0%,
+  20%,
+  100% {
+    scale: 100%;
+    filter: brightness(100%);
+  }
+}
+
+@keyframes pulse2 {
+  10% {
+    scale: 105%;
+    filter: brightness(120%);
+  }
+
+  0%,
+  20%,
+  100% {
+    scale: 100%;
+    filter: brightness(100%);
+  }
+}
+
+/* ToC */
+.ToC-Animations {
+  transition: all 0.25s ease-in-out;
+}
+
+.ToC-Animations:hover {
+  scale: 80%;
+  border-color: white;
+}
+
+/* Footer sakura rotating slowly */
+#sakura {
+  transition: all 0.25s ease-in-out;
+}
+
+#sakura:hover {
+  rotate: 1deg;
+}
+
+/* Footer yin yang rotating slowly */
+#yin-yang:hover {
+  animation: rotateAround 3s ease-in-out infinite alternate;
+}
+
+@keyframes rotateAround {
+  0% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 5deg;
+  }
+}
+
+#hero-downloadbutton {
+  transition: all 0.5s ease-in-out;
+}
+
+#hero-downloadbutton:hover {
+  scale: 95%;
+  filter: drop-shadow(0 0 0.6rem var(--primaryOrange500));
+  border: 0;
+}
+
+#vector-about {
+  transition: all 0.5s ease-in-out;
+}
+
+#vector-about:hover {
+  scale: 110%;
+}
+
+#herodownload-responsive {
+  transition: all 0.5s ease-in-out;
+}
+
+#herodownload-responsive:hover {
+  scale: 110%;
+  filter: drop-shadow(0 0 0.6rem var(--primaryOrange500));
+  border: 0;
+}
