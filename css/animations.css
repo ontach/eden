@@ -144,3 +144,10 @@
   filter: drop-shadow(0 0 0.6rem var(--primaryOrange500));
   border: 0;
 }
+
+#vector-contact {
+  transition: all 0.25 ease-in-out;
+}
+#vector-contact:hover {
+  scale: 110%;
+}

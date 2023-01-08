@@ -39,6 +39,9 @@
     text-align: center;
     margin-inline: auto;
   }
+  #software1 {
+    text-align: center;
+  }
   #download-comment {
     text-align: center;
   }
@@ -49,7 +52,6 @@
     display: none;
   }
   #circlek {
-    /* display: none; */
     z-index: -1;
     right: 0;
   }
@@ -59,10 +61,56 @@
   #pentagon1 {
     display: none;
   }
+
+  h1 {
+    font-size: 6rem;
+  }
+  #software1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+  p {
+    font-size: 2rem !important;
+  }
+  button {
+    font-size: 2rem !important;
+    width: 20rem !important;
+    height: 5rem !important;
+  }
+  input,
+  textarea {
+    scale: 75%;
+  }
+  #contact-input-container {
+    gap: 1rem;
+  }
+  #submit-contact {
+    margin-inline: auto;
+    width: 24rem !important;
+  }
+  #contact-flex {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 800px) {
+  /* :is(
+         .navbar-container > :nth-child(1),
+         .navbar-container > :nth-child(2),
+         .navbar-container > :nth-child(4),
+         .navbar-container > :nth-child(5)
+      ) {
+      display: none; */
   .navbar-container {
-    scale: 80%;
+    scale: 70%;
   }
+}
+.navbar-container {
+  padding-inline: 3rem;
+}
+#hero-section,
+#about-section,
+#contact-section,
+#download-section {
+  margin-inline: 2rem;
 }
