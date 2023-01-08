@@ -102,15 +102,16 @@
       ) {
       display: none; */
   .navbar-container {
-    scale: 70%;
+    scale: 50%;
   }
-}
-.navbar-container {
-  padding-inline: 3rem;
-}
-#hero-section,
-#about-section,
-#contact-section,
-#download-section {
-  margin-inline: 2rem;
+
+  .navbar-container {
+    padding-inline: 3rem;
+  }
+  #hero-section,
+  #about-section,
+  #contact-section,
+  #download-section {
+    margin-inline: 2rem;
+  }
 }
