@@ -151,3 +151,12 @@
 #vector-contact:hover {
   scale: 110%;
 }
+
+#beat{
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+#beat:hover{
+  scale: 110%;
+  filter: drop-shadow(0 0 0.6rem white);
+}
