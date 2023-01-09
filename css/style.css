@@ -60,12 +60,15 @@ nav {
 }
 
 .navbar-container {
-  width: max-content;
   background-color: var(--primaryRed400);
   gap: max(8rem);
   padding: 1rem 2rem;
   border-radius: 100rem;
   box-shadow: 0 0 2rem var(--primaryRed500);
+}
+
+#navbar-eden-btn {
+  height: 3.6875rem;
 }
 
 .navbar-container-fixed {
@@ -76,6 +79,41 @@ nav {
 
 #maly-grzybek {
   transform: translateY(0.3rem);
+}
+
+#navbar-container {
+  transition: all 0.5s cubic-bezier(0.68, 0.2, 0.37, 0.88);
+}
+
+#navbar-container:not(.active) {
+  width: 6rem;
+}
+
+#navbar-container.active {
+  width: 46.875rem;
+}
+
+.navbar-icon {
+  display: block;
+  transition: all 0.5s cubic-bezier(0.68, 0.2, 0.37, 0.88);
+}
+
+/* Navbar icons */
+:is(
+    .navbar-container > :nth-child(1),
+    .navbar-container > :nth-child(2),
+    .navbar-container > :nth-child(4),
+    .navbar-container > :nth-child(5)
+  ) {
+  opacity: 0;
+}
+:is(
+    .navbar-container > .active:nth-child(1),
+    .navbar-container > .active:nth-child(2),
+    .navbar-container > .active:nth-child(4),
+    .navbar-container > .active:nth-child(5)
+  ) {
+  opacity: 1;
 }
 
 /* Hero section */
@@ -253,8 +291,4 @@ nav {
   height: 6rem;
   border-radius: 2rem;
   margin-top: 2rem;
-}
-
-#pentagon1 {
-  transform: translateZ(-10);
 }
