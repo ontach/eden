@@ -2,6 +2,12 @@
   #herodownload-responsive {
     display: none;
   }
+  #contact-flex {
+    justify-content: space-between !important;
+  }
+  #contact-input-container {
+    margin-right: -5rem !important;
+  }
 }
 @media (max-width: 1710px) {
   #hero-img,
@@ -20,9 +26,17 @@
   #hero-triangle-vector {
     display: none;
   }
+
+  #contact-flex {
+    justify-content: space-between !important;
+  }
 }
 
 @media (max-width: 1300px) {
+  #download-comment1{
+    text-align: center !important; 
+  }
+
   #vector-contact {
     display: none;
   }
@@ -42,7 +56,7 @@
   #software1 {
     text-align: center;
   }
-  #download-comment {
+  #download-comment  {
     text-align: center;
   }
   #sakura {
@@ -145,7 +159,7 @@ textarea {
     font-size: 1.5rem !important;
   }
   .footer-link {
-    display: none;
+    font-size: 1.5rem !important;
   }
   #ToC {
     font-size: 2.5rem;
@@ -156,5 +170,12 @@ textarea {
   }
   #hero-downloadbutton {
     scale: 70%;
+  }
+  #download-comment1{
+    text-align: center !important;
+    font-size: 1.5rem !important;   
+  }
+  .navbar-container{
+    scale: 60% !important;
   }
 }
